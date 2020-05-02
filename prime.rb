@@ -3,6 +3,6 @@ def prime?(num)
    if num % 2 == 0 || num < 2
      return false
    
-    
+
   end
 end
