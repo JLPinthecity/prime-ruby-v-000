@@ -1,11 +1,12 @@
 # Add  code here!
 def prime?(num)
-   if num == 0 || num == 1
+   if num == 0 || num == 1 || (num / 2) == 0
      return false
    else
-     while i > 2
-     if (num % i) == 0
-        return true
+     (2...num).each do |divisor|
+       if num % divisor == 0
+       return true 
+       end
      end
 
 
